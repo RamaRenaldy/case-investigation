@@ -51,6 +51,7 @@ else:
     
     st.subheader("Siapa Pelakunya??")
     answer = st.text_input(
+        "Siapa Pelakunya?",
         placeholder="Masukkan nama tersangka..."
     )
 
