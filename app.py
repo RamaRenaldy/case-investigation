@@ -8,45 +8,45 @@ st.set_page_config(
 
 PASSWORD = "110101001011"
 
-st.title("🔐 CASE FILE #027")
-st.subheader("Murder Investigation — Restricted Access")
+st.title("HAHAHAHA 🤡👅")
+st.subheader("Not Everyone Can Come In")
 
 if "authenticated" not in st.session_state:
     st.session_state.authenticated = False
 
 if not st.session_state.authenticated:
     st.write(
-        "Sistem mengunci evidence terakhir. "
-        "Masukkan authentication key yang diperoleh dari perhitungan CBC."
+        "Sistem mengunci petunjuk terakhir. "
+        "Masukkan jawaban Anda."
     )
 
     entered = st.text_input(
         "Authentication Key",
         type="password",
-        placeholder="Masukkan password hexadecimal..."
+        placeholder="Masukkan Jawaban Anda..."
     )
 
     if st.button("ACCESS EVIDENCE"):
         if entered.strip().upper() == PASSWORD:
             st.session_state.authenticated = True
-            st.success("ACCESS GRANTED")
+            st.success("SELAMAT ANDA BERHASIL MASUK HAHAHAHA")
             st.rerun()
         else:
-            st.error("ACCESS DENIED — Periksa kembali perhitungan CBC.")
+            st.error("ACCESS DENIED.")
 
 else:
     st.success("ACCESS GRANTED")
-    st.markdown("### 🗂️ FINAL EVIDENCE")
+    st.markdown("### 🗂️ FINAL ROUND")
     st.info(
-        "Truth is not always hidden inside the words. "
-        "Sometimes it is hidden at the beginning of every story."
+        "Truth is not always hidden inside the words."
+        "Selamat, Detektif. Kau berhasil bertahan hingga babak final. Sangat sedikit orang di kota ini yang memiliki ketajaman akal untuk melangkah sejauh ini, melampaui kepanikan masal dan analisis dangkal para aparat Gotham.
+
+Di hadapanmu sekarang tergelar teka-teki terakhir—sebuah mahakarya simetri yang kurancang khusus untuk menguji batas kecerdasanmu. Setiap baris puisi yang kau baca bukanlah sekadar ratapan atau ancaman kosong, melainkan deretan petunjuk transparan yang sengaja kutelanjangi di hadapan matamu. Rahasia terbesar tidak pernah tersembunyi di kedalaman malam, melainkan terpampang jelas di garis paling awal.
+
+Sekarang, tunjukkan padaku... siapa aku sebenarnya?"
     )
 
-    # -------------------------------------------------------------
-    # MENAMPILKAN GAMBAR CLUE
-    # Ganti "clue.png" dengan path/nama file gambar Anda
-    # -------------------------------------------------------------
-    st.image("puisi.png", caption="Evidence Clue #027", use_container_width=True)
+    st.image("puisi.png", caption="Look First", use_container_width=True)
 
     st.divider()
 
