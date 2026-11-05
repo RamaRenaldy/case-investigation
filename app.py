@@ -38,11 +38,11 @@ else:
     st.success("ACCESS GRANTED")
     st.markdown("### 🗂️ FINAL ROUND")
     st.info(
-        "Truth is not always hidden inside the words."
         "Selamat, Detektif. Kau berhasil bertahan hingga babak final. Sangat sedikit orang di kota ini yang memiliki ketajaman akal untuk melangkah sejauh ini, melampaui kepanikan masal dan analisis dangkal para aparat Gotham."
         "Di hadapanmu sekarang tergelar teka-teki terakhir—sebuah mahakarya simetri yang kurancang khusus untuk menguji batas kecerdasanmu. Setiap baris puisi yang kau baca bukanlah sekadar ratapan atau ancaman kosong, melainkan deretan petunjuk transparan yang sengaja kutelanjangi di hadapan matamu. Rahasia terbesar tidak pernah tersembunyi di kedalaman malam, melainkan terpampang jelas di garis paling awal."
         "Sekarang, tunjukkan padaku... siapa aku sebenarnya?"
     )
+    st.info("Truth is not always hidden inside the words.")
 
     st.image("puisi.png", caption="Look First", use_container_width=True)
 
