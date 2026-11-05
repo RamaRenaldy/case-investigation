@@ -48,8 +48,9 @@ else:
 
     st.divider()
 
+    
+    st.subheader("Siapa Pelakunya??")
     answer = st.text_input(
-        "Siapa pelakunya?",
         placeholder="Masukkan nama tersangka..."
     )
 
