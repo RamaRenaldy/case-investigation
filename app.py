@@ -58,8 +58,8 @@ else:
     if st.button("SUBMIT FINAL ANSWER"):
         normalized = "".join(answer.lower().split())
 
-        if normalized == "edwardnygma":
+        if normalized == "jamesnygma":
             st.balloons()
-            st.success("CASE SOLVED — Edward Nygma adalah pelakunya.")
+            st.success("CASE SOLVED — James Nygma adalah pelakunya.")
         else:
             st.warning("Jawaban belum tepat. Periksa kembali pola pada Puisi tersebut.")
