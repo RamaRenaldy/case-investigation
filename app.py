@@ -8,7 +8,7 @@ st.set_page_config(
 
 PASSWORD = "110101001011"
 
-st.title("HAHAHAHA 🤡👅")
+st.title("HAHAHAHA 🤡👅 JOKES ON YOU")
 st.subheader("Not Everyone Can Come In")
 
 if "authenticated" not in st.session_state:
