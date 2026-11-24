@@ -6,7 +6,7 @@ st.set_page_config(
     layout="wide"
 )
 
-PASSWORD = "110101001011"
+PASSWORD = "01101000010111100001011011110100"
 
 st.title("HAHAHAHA 🤡👅 JOKES ON YOU")
 st.subheader("Not Everyone Can Come In")
